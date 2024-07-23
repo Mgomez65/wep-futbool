@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos principales */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; /* Alinea los datos a la derecha */
+}
+
+/* Estilos del contenedor de datos */
+.data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px; /* Limita el ancho máximo */
+    width: 100%;
+}
+
+/* Estilos de los ítems de datos */
+.item {
+    background: #abb19b;
+    border: 1px solid #030303;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.item div {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.item .team-info {
+    display: flex;
+    align-items: center;
+}
+
+.item .score {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+    
+/* Estilo del pie de página */
+footer {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
