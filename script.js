@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const apiKey = "df7f9445ad92a7e739b1487f9870452f";
     const apiHost = "v3.football.api-sports.io";
-    const url = `https://${apiHost}/fixtures?live=all`;
+    const url = `https://github.com/Mgomez65/wep-futbool.git`;
 
     const requestOptions = {
         method: 'GET',
